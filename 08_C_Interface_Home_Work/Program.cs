@@ -7,7 +7,10 @@ internal class Program
     {
         Console.OutputEncoding = Encoding.Unicode;
         Console.InputEncoding = Encoding.Unicode;
-        Console.WriteLine("Привіт світ!");
+        string s = "\U0001F531";
+        Console.WriteLine("\t" + s);
+        
+        
 
         Console.WriteLine("\n\t -- ЛІНІЯ --");
         Line line = new Line();
